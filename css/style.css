@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Press+Start+2P&family=Protest+Revolution&display=swap');
+@import url('footer.css');
+@import url('Header.css');
+@import url('sobremim.css');
+@import url('cv.css');
+
+
+:root{
+    
+    --cor-de-fundo: #a70303d5;
+    --cor-de-seção: #b4960f;
+    --cor-fonte-principal: #e0e0e0;
+    --cor-fonte-destaque: #ddbc00;
+    --fonte-titulo: "Protest Revolution", sans-serif;
+    --fonte_texto: "Lora", sans-serif;
+    --fonte-titulo-games: "Press Start 2P", system-ui;
+    --fonte-texto-games:"Jersey 10", sans-serif;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-fonte-principal);
+    font-family: var(--fonte_texto);
+    font-size: 16px;
+    font-weight: 400;
+}
+

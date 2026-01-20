@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+hr{
+    margin:0;
+}
+
+.footer{
+    background-color: var(--Seção);
+}
+
+.rodape{
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--azul);
+}
+
+.lista-rodape{
+    display: none;
+}
+@media screen and (min-width:1024px){
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lista-rodape{
+        display: block;
+    }
+
+    .lista-rodape__item{
+        display: flex;
+        align-items: center;
+        margin: 0.8em 0;
+    }
+
+    .lista-rodape__link{
+        color: var(--cor-da-fonte);
+        text-decoration: none;
+        margin-left: 0.5em;
+    }
+
+    .lista-rodape__titulo{
+        font-size: 25px;
+        color: var(--cinza-claro);
+        list-style-type: none; /*Remove o marcador*/
+    }
+
+    .rodape__titulo{
+        font-size: 24px;
+    }
+
+}
+
+@media  screen and (min-width: 1728px){
+    .lista-rodape{
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
+    }
+
+    .rodape{
+        padding: 3em 0;
+    }
+}

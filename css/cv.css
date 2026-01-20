@@ -1,0 +1,54 @@
+body{
+    background-image: url('../img/background__alternativo.png');
+}
+
+.link__home{
+    text-decoration: none;
+    color: var(--cor-fonte-principal);
+}
+
+.titulo__cv{
+    color: var(--cor-fonte-principal);
+    text-align: center;
+}
+
+.subtitulo__cv{
+    text-align: center;
+}
+
+.sub__subtitulo__cv{
+    text-align: center;
+}
+
+.descricao__dados{
+    margin-left: 20%;
+    text-align: justify;
+    width: 60%;
+}
+.texto_experiencia{
+    margin-left: 20%;
+    text-align: justify;
+    width: 60%;
+}
+
+.botao__curso{
+    text-decoration: none;
+    color: var(--cor-fonte-principal);
+}
+
+.cards__cv{
+    display: flex;
+    margin-left: 5%;
+}
+
+.lista__formacao{
+    margin-left: 30%;
+}
+
+.lista__cursos{
+    width: 250px;
+}
+
+li{
+    list-style-type: none;
+}
